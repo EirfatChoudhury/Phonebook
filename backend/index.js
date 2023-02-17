@@ -23,6 +23,7 @@ app.use(
 
 app.use(cors())
 
+const password = "Talbia01"
 const url = `mongodb+srv://EirfatChoudhury:${password}@cluster0.vmwwdtz.mongodb.net/personApp?retryWrites=true&w=majority`
 mongoose.set('strictQuery',false)
 mongoose.connect(url)
