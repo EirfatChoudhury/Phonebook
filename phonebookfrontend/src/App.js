@@ -92,7 +92,7 @@ const App = () => {
   
   return (
     <div>
-      <h2>Phonebook App</h2>
+      <h2>Phonebook</h2>
       <Notification message={notifMessage} />
       <h2>Filter</h2>
       filter: <Filter value={newFilter} handleChange={handleChange} set={setNewFilter}/>

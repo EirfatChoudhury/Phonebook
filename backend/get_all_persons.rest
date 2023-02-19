@@ -1,7 +1,7 @@
-POST https://phonebook-test-h3el.onrender.com/api/persons
-content-type: application/json
+POST http://localhost:3001/api/persons
+Content-type: application/json
 
 {
-    "name": "Test",
-    "number": "5"
+    "name": "AB",
+    "number": "1234"
 }
