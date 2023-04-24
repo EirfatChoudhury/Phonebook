@@ -33,6 +33,10 @@ const App = () => {
       return alert("No name or number")
     } 
 
+    if (newName.length < 3 || newNumber.length < 8) {
+      return alert("Name or number is too short")
+    }
+
     const nameObject = {
       name: newName,
       number: newNumber
